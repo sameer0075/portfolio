@@ -74,7 +74,7 @@ import wolframalpha from '/public/svg/skills/wolframalpha.svg';
 import wordpress from '/public/svg/skills/wordpress.svg';
 import expressjs from '/public/svg/skills/expressjs.png';
 import microservices from '/public/svg/skills/microservices.jpeg';
-import nestjs from '/public/svg/skills/nestjs.jpeg';
+import nestjs from '/public/svg/skills/nestJS.jpeg';
 import prismaorm from '/public/svg/skills/prismaorm.jpeg';
 import redis from '/public/svg/skills/redis.png';
 import sequelizeorm from '/public/svg/skills/sequelizeorm.png';
