@@ -72,7 +72,14 @@ import vuetifyjs from '/public/svg/skills/vuetifyjs.svg';
 import webix from '/public/svg/skills/webix.svg';
 import wolframalpha from '/public/svg/skills/wolframalpha.svg';
 import wordpress from '/public/svg/skills/wordpress.svg';
-
+import expressjs from '/public/svg/skills/expressjs.png';
+import microservices from '/public/svg/skills/microservices.jpeg';
+import nestjs from '/public/svg/skills/nestjs.jpeg';
+import prismaorm from '/public/svg/skills/prismaorm.jpeg';
+import redis from '/public/svg/skills/redis.png';
+import sequelizeorm from '/public/svg/skills/sequelizeorm.png';
+import typeorm from '/public/svg/skills/typeorm.png';
+import websockets from '/public/svg/skills/websockets.webp';
 
 export const skillsImage = (skill) => {
   const skillID = skill.toLowerCase();
@@ -225,6 +232,22 @@ export const skillsImage = (skill) => {
       return wolframalpha;
     case 'canva':
       return canva;
+    case 'nestjs':
+      return nestjs;
+    case 'redis':
+      return redis;
+    case 'websockets':
+      return websockets;
+    case 'microservices':
+      return microservices;
+    case 'expressjs':
+      return expressjs;
+    case 'typeorm':
+      return typeorm;
+    case 'prismaorm':
+      return prismaorm;
+    case 'sequelizeorm':
+      return sequelizeorm;
     default:
       break;
   }

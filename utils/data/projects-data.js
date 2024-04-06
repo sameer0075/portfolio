@@ -6,43 +6,73 @@ import travel from '/public/image/travel.jpg';
 export const projectsData = [
     {
         id: 1,
-        name: 'AI Powered Financial App',
-        description: "Me and my team built an AI-powered financial mobile application. I have developed API using Express, Typescript, OpenAI, AWS, and MongoDB. Used OTP via AWS SES, Google, and Facebook for the authentication system. Built AI assistants using OpenAI's latest model and trained using our dataset. Voice messages are converted to text using AWS Transcribe. The app fetches data from Google Sheets and generates a PDF term sheet, sent via AWS SES.",
-        tools: ['Express', 'MongoDB', 'OpenAI API', 'AWS SES', 'AWS S3', 'Node Mailer', 'Joi', 'Puppeteer', 'EC2', 'PM2', 'Nginx'],
+        name: 'Lifescript',
+        description: "Lifescript helps its users create well-versed and featured auto-biography using AI tools,input questionnaire, voice memos and images. The product will have some free for all features and some premium features. I handle the backend side and develop the features like User written auto biography from Open Ai (GPT), along with editor functionalities, including, speech to text, Grammar suggestions. The Challenging task is to implement the Image enhancements from AI, if they required any image. To provide the easiness, I proposed the solution for creating the Multiple Chapters and their Questions, which user will answer for auto biography, and after enhancements, that biography will be used as a book.",
+        tools: ['Nest JS', 'MongoDB', 'OpenAI API', 'AWS', 'Netlify', 'Node Mailer', 'EC2', 'PM2', 'Nginx', 'Next'],
         role: 'Backend Developer',
-        code: '',
-        demo: '',
         image: crefin,
+        demo: "https://www.thelifescript.com/",
+        code: ""
     },
     {
         id: 2,
-        name: 'Travel Agency App',
-        description: 'I have designed and developed a full-stack web app for 2Expedition, a travel agency in Armenia. I created the UI using NextJS, Typescript, MUI, TailwindCSS, Google Maps, Sun-Editor, and React Slick. The app supports multiple languages and currencies. I developed the API using NestJS, Typescript, MySQL, TypeORM, AWS, and Nodemailer. I deployed the front-end app to AWS Amplify and the back-end app to AWS EC2.',
-        tools: ['NextJS', 'Tailwind CSS', "Google Maps", "NestJS", "TypeScript", "MySQL", "AWS S3", "Sun-Editor", "Gmail Passkey"],
+        name: 'Kyochon',
+        description: "Kyochon is basically an ecommerce platform, developed for customers. I worked on the multiple features of ecommerce such as handling products, deals, discounts, coupons, customers, reporting, marketing, and many other features. It contains a website for customers and admin panel for internal use. I handled the integration with 3rd Party Point of sale called foodics, which syncs products and orders with our system.",
+        tools: ['React JS', 'Redux', 'Nest JS', "MySQL", "TypeORM"],
+        image: ayla,
         role: 'Full Stack Developer',
-        code: '',
-        demo: '',
-        image: travel,
+        demo: "https://www.kyochonme.com/",
+        code: ""
     },
     {
         id: 3,
-        name: 'AI Powered Real Estate',
-        description: 'My team built an AI-based real estate app using Replicate API and OpenAI. We used Express, Typescript, OpenAI, Replicate, Stripe, and Mongoose to develop the API. We utilized NextJS, Formik, TailwindCSS, and other npm libraries for the UI. We have trained multiple AI assistants using the latest GPT model and integrated Replicate API for image processing. We added role-based auth, subscription plans, Cron job scheduling, and payment integration with Stripe.',
-        tools: ['React', 'Bootstrap', 'SCSS', 'Stripe', 'Express', 'TypeScript', 'MongoDB', 'Azure Blob', 'OpenAI API', 'Replicate AI', 'Cronjob', 'JWT'],
-        code: '',
-        role: 'Full Stack Developer',
-        demo: '',
+        name: 'APEX: E3',
+        description: 'Apex:e3 is a blockchain technology-based project where you can connect your Binance, Kraken, coinbase and your respective balances from these exchanges will be available on your account on this platform. Users can add multiple Ethereum wallets and can check the aggregated balance. Users can add multiple Solana wallets and can check the aggregated balance for all wallets and can check each token/coin in each wallet. Users can check the balance summary where he/she’ll be able to check all the tokens collective balances from the exchange, wallets, and the total balance. My role for this project was Back end developer. I worked on the authentication module of the project and integrated multiple exchange APIs. Worked on implementation of aggregated balance of exchanges balances, fetching markets data. I integrated Ethereum and Solana wallets. Worked on fetching the wallet tokens and their balances and then worked on the aggregated balance of wallets.',
+        tools: ['Typescript', 'Nest JS', 'Redis', 'Microservices Architecture', 'Keycloak Identity Provider,', 'PostgreSQL,', 'Web Sockets'],
+        role: 'Backend Developer',
         image: realEstate,
+        demo: "",
+        code: ""
     },
     {
         id: 4,
-        name: 'Newsroom Management',
-        description: "My team and I developed a newspaper management dashboard application called Newsroom Management. As a front-end developer, I worked on creating the dashboard using NextJS, Material UI, Redux, Calendar, and other necessary npm libraries. We used React Redux to manage the application's state and React-hook-form and Sun Editor to handle forms.",
-        tools: ['NextJS', 'Material UI', 'Redux', 'Sun Editor', "Calendar"],
-        code: '',
-        demo: '',
+        name: 'SPPC',
+        description: 'SPPC is basically a Saudi Pakistan Professional Community. It is similar to linked in handling user connections feature, notification features, chat features, posts features, handling user connections feature, notification features, chat features, posts features, events features, jobs features, company features and many more. It is a platform used for job searching and applying similar to linked in. I optimized the frontend for smooth user experiences and I craft an efficient job-search mechanism, enhancing user engagement through dynamic features.',
+        tools: ['NextJS', 'Material UI', "Nest JS", "Postgres", "TypeScript", "AWS Elastic Bean Stalk", "Sockets"],
+        role: 'Backend Developer',
+        image: travel,
+        demo: "",
+        code: ""
+    },
+    {
+        id: 5,
+        name: 'Cluey',
+        description: "Cluey targets an audience that selects brands based on their values and standards. Cluey keeps details about each brand, including what the brand is, how much and in what manner it participates in political campaigns, what impact it has on the public, and which alternative brands are available. I design and implement the client and server side logic using React and Node to support a platform catering to an audience driven by brand values. I oversee the storage and retrieval of detailed brand information, including political campaign involvement, societal impact, and alternatives. I was involved in crafting robust APIs, data flow, and optimizing performance. I contribute to maintain data integrity and uphold privacy standards. My responsibilities span frontend architecture to database management, and API development.",
+        tools: ['NextJS', 'Material UI', 'Redux', 'Nest JS', "MySQL"],
         image: ayla,
         role: 'Full Stack Developer',
+        demo: "https://clueyconsumer.com/",
+        code: ""
+    },
+    {
+        id: 6,
+        name: 'Tortilla Arabia',
+        description: "Tortilla Arabia is an ecommerce platform, developed for customers. It includes multiple features of ecommerce such as handling products, deals, discounts, coupons, customers, reporting, marketing, loyalty and many other features. It contains a website and crm for customers and admin pannel for internal use. It also handles integration with 3rd Party System called GrubTech , which syncs products and orders with our system.",
+        tools: ['React JS', 'Redux', 'Nest JS', "MySQL", "TypeORM"],
+        image: ayla,
+        role: 'Full Stack Developer',
+        demo: "https://tortillaarabia.com/",
+        code: ""
+    },
+    {
+        id: 7,
+        name: 'OPTP',
+        description: "OPTP is an ecommerce platform, developed for customers. It includes multiple features of ecommerce such as handling products, deals, discounts, coupons, customers, reporting, marketing, and many other features. It contains a website and CRM for customers and admin panel for internal use.",
+        tools: ['React JS', 'Redux', 'Nest JS', "MySQL", "TypeORM"],
+        image: ayla,
+        role: 'Full Stack Developer',
+        demo: "https://optp.biz/",
+        code: ""
     }
 ];
 
