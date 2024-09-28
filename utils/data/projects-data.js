@@ -26,22 +26,22 @@ export const projectsData = [
     },
     {
         id: 3,
-        name: 'APEX: E3',
-        description: 'Apex:e3 is a blockchain technology-based project where you can connect your Binance, Kraken, coinbase and your respective balances from these exchanges will be available on your account on this platform. Users can add multiple Ethereum wallets and can check the aggregated balance. Users can add multiple Solana wallets and can check the aggregated balance for all wallets and can check each token/coin in each wallet. Users can check the balance summary where he/she’ll be able to check all the tokens collective balances from the exchange, wallets, and the total balance. My role for this project was Back end developer. I worked on the authentication module of the project and integrated multiple exchange APIs. Worked on implementation of aggregated balance of exchanges balances, fetching markets data. I integrated Ethereum and Solana wallets. Worked on fetching the wallet tokens and their balances and then worked on the aggregated balance of wallets.',
-        tools: ['Typescript', 'Nest JS', 'Redis', 'Microservices Architecture', 'Keycloak Identity Provider,', 'PostgreSQL,', 'Web Sockets'],
-        role: 'Backend Developer',
+        name: 'Kien',
+        description: 'Kien Travel experience Company. It’s one of my best project which helps to learn about the animations. The challenging task is to handle the Horizontal scroll as most of website UI is Vertical scroll. I have implemented the Horizontal scroll and control the scroll according to pages. I have implemented the Zoom In and slider animations. Also working on the 3d animations for the landing pages',
+        tools: ['Typescript', 'Next JS'],
+        role: 'Frontend Developer',
         image: realEstate,
-        demo: "",
+        demo: "https://kien-seven.vercel.app/",
         code: ""
     },
     {
         id: 4,
-        name: 'SPPC',
-        description: 'SPPC is basically a Saudi Pakistan Professional Community. It is similar to linked in handling user connections feature, notification features, chat features, posts features, handling user connections feature, notification features, chat features, posts features, events features, jobs features, company features and many more. It is a platform used for job searching and applying similar to linked in. I optimized the frontend for smooth user experiences and I craft an efficient job-search mechanism, enhancing user engagement through dynamic features.',
-        tools: ['NextJS', 'Material UI', "Nest JS", "Postgres", "TypeScript", "AWS Elastic Bean Stalk", "Sockets"],
-        role: 'Backend Developer',
+        name: 'Rotobot',
+        description: 'Rotobot revolutionizes fantasy football with cutting-edge AI technology, providing personalized trends, in-depth player insights, and real-time updates. Built chatbot screens and handled responsiveness for all devices. Implemented smooth animations throughout the app to enhance user interaction and overall experience',
+        tools: ['NextJS', 'Material UI'],
+        role: 'Frontend Developer',
         image: travel,
-        demo: "",
+        demo: "https://rotobot.ai/",
         code: ""
     },
     {
