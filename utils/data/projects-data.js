@@ -7,7 +7,7 @@ export const projectsData = [
     {
         id: 1,
         name: 'Lifescript',
-        description: "Lifescript helps its users create well-versed and featured auto-biography using AI tools,input questionnaire, voice memos and images. The product will have some free for all features and some premium features. I handle the backend side and develop the features like User written auto biography from Open Ai (GPT), along with editor functionalities, including, speech to text, Grammar suggestions. The Challenging task is to implement the Image enhancements from AI, if they required any image. To provide the easiness, I proposed the solution for creating the Multiple Chapters and their Questions, which user will answer for auto biography, and after enhancements, that biography will be used as a book.",
+        description: "Lifescript helps users create well-versed autobiographies using AI tools, input questionnaires, voice memos, and images. The product offers both free and premium features. I handled the backend development, implementing features such as user-written autobiographies from OpenAI (GPT) and editor functionalities, including speech-to-text and grammar suggestions. A challenging task was implementing AI-driven image enhancements when required. To simplify the process, I proposed a solution for creating multiple chapters and their corresponding questions, allowing users to answer them for their autobiographies, which could then be enhanced for publication as a book.",
         tools: ['Nest JS', 'MongoDB', 'OpenAI API', 'AWS', 'Netlify', 'Node Mailer', 'EC2', 'PM2', 'Nginx', 'Next'],
         role: 'Backend Developer',
         image: crefin,
@@ -17,7 +17,7 @@ export const projectsData = [
     {
         id: 2,
         name: 'Kyochon',
-        description: "Kyochon is basically an ecommerce platform, developed for customers. I worked on the multiple features of ecommerce such as handling products, deals, discounts, coupons, customers, reporting, marketing, and many other features. It contains a website for customers and admin panel for internal use. I handled the integration with 3rd Party Point of sale called foodics, which syncs products and orders with our system.",
+        description: "Kyochon is an e-commerce platform developed for customers. I worked on various features, including product management, deals, discounts, coupons, customer handling, reporting, and marketing. The platform includes a customer-facing website and an internal admin panel. I managed the integration with a third-party point-of-sale system called Foodics, which synced products and orders with our system.",
         tools: ['React JS', 'Redux', 'Nest JS', "MySQL", "TypeORM"],
         image: ayla,
         role: 'Full Stack Developer',
@@ -27,7 +27,7 @@ export const projectsData = [
     {
         id: 3,
         name: 'Kien',
-        description: 'Kien Travel experience Company. It’s one of my best project which helps to learn about the animations. The challenging task is to handle the Horizontal scroll as most of website UI is Vertical scroll. I have implemented the Horizontal scroll and control the scroll according to pages. I have implemented the Zoom In and slider animations. Also working on the 3d animations for the landing pages',
+        description: 'Kien Travel Experience Company is one of my most rewarding projects, allowing me to deepen my understanding of animations. A key challenge was implementing horizontal scrolling, as most website UIs typically use vertical scrolling. I successfully integrated horizontal scroll functionality, controlling the scroll according to pages. Additionally, I implemented zoom-in effects and slider animations, and I am currently working on 3D animations for the landing pages.',
         tools: ['Typescript', 'Next JS'],
         role: 'Frontend Developer',
         image: realEstate,
@@ -37,7 +37,7 @@ export const projectsData = [
     {
         id: 4,
         name: 'Rotobot',
-        description: 'Rotobot revolutionizes fantasy football with cutting-edge AI technology, providing personalized trends, in-depth player insights, and real-time updates. Built chatbot screens and handled responsiveness for all devices. Implemented smooth animations throughout the app to enhance user interaction and overall experience',
+        description: 'Rotobot revolutionizes fantasy football with cutting-edge AI technology, delivering personalized trends, in-depth player insights, and real-time updates. I built chatbot screens and ensured responsiveness across all devices. Additionally, I implemented smooth animations throughout the app to enhance user interaction and overall experience.',
         tools: ['NextJS', 'Material UI'],
         role: 'Frontend Developer',
         image: travel,

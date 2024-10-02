@@ -91,7 +91,7 @@ export const personalData = {
   profile: "/profile.jpeg",
   designation: "Senior Full-Stack Software Developer (MERN)",
   description: "My name is Sameer Butt....",
-  email: "sameerbutt151@gmail.com",
+  email: "sameerbuttsb29@gmail.com",
   phone: "+923065496448",
   address: "Lahore Pakistan",
   linkedIn: "https://www.linkedin.com/in/sameer-butt-2691031b9/",
