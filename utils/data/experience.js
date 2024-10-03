@@ -15,6 +15,6 @@ export const experiences = [
     id: 3,
     title: "Software Engineer (MERN)",
     company: "Simplex Technology Solutions",
-    duration: "(Nov 2020 - December 2022)"
+    duration: "(Nov 2019 - December 2022)"
   }
 ]
