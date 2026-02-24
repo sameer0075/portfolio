@@ -16,6 +16,16 @@ export const projectsData = [
     },
     {
         id: 2,
+        name: 'Evagenomics',
+        description: "Contributed to EvaGenomics, a patient-focused genomics startup leveraging AI-driven whole-genome analysis and advanced genetic testing to uncover potential genetic contributors to chronic and unexplained health conditions.Supported the development and communication of personalized genetic reports that translate complex genomic data into actionable health insights for individuals, families, and healthcare professionals.Helped enhance user pathways from symptom input to at-home DNA collection, AI analysis, and report delivery aimed at shortening lengthy diagnostic journeys using cutting-edge technology.",
+        tools: ['Next JS', 'Postgres', 'OpenAI API', 'AWS', 'Sengrid', 'Amplify'],
+        role: 'Full Stack Developer',
+        image: crefin,
+        demo: "https://www.evagenomics.com/",
+        code: ""
+    },
+    {
+        id: 3,
         name: 'Kyochon',
         description: "Kyochon is an e-commerce platform developed for customers. I worked on various features, including product management, deals, discounts, coupons, customer handling, reporting, and marketing. The platform includes a customer-facing website and an internal admin panel. I managed the integration with a third-party point-of-sale system called Foodics, which synced products and orders with our system.",
         tools: ['React JS', 'Redux', 'Nest JS', "MySQL", "TypeORM"],
@@ -25,7 +35,7 @@ export const projectsData = [
         code: ""
     },
     {
-        id: 3,
+        id: 4,
         name: 'Kien',
         description: 'Kien Travel Experience Company is one of my most rewarding projects, allowing me to deepen my understanding of animations. A key challenge was implementing horizontal scrolling, as most website UIs typically use vertical scrolling. I successfully integrated horizontal scroll functionality, controlling the scroll according to pages. Additionally, I implemented zoom-in effects and slider animations, and I am currently working on 3D animations for the landing pages.',
         tools: ['Typescript', 'Next JS'],
@@ -35,7 +45,7 @@ export const projectsData = [
         code: ""
     },
     {
-        id: 4,
+        id: 5,
         name: 'Rotobot',
         description: 'Rotobot revolutionizes fantasy football with cutting-edge AI technology, delivering personalized trends, in-depth player insights, and real-time updates. I built chatbot screens and ensured responsiveness across all devices. Additionally, I implemented smooth animations throughout the app to enhance user interaction and overall experience.',
         tools: ['NextJS', 'Material UI'],
@@ -45,7 +55,7 @@ export const projectsData = [
         code: ""
     },
     {
-        id: 5,
+        id: 6,
         name: 'Cluey',
         description: "Cluey targets an audience that selects brands based on their values and standards. Cluey keeps details about each brand, including what the brand is, how much and in what manner it participates in political campaigns, what impact it has on the public, and which alternative brands are available. I design and implement the client and server side logic using React and Node to support a platform catering to an audience driven by brand values. I oversee the storage and retrieval of detailed brand information, including political campaign involvement, societal impact, and alternatives. I was involved in crafting robust APIs, data flow, and optimizing performance. I contribute to maintain data integrity and uphold privacy standards. My responsibilities span frontend architecture to database management, and API development.",
         tools: ['NextJS', 'Material UI', 'Redux', 'Nest JS', "MySQL"],
@@ -55,7 +65,7 @@ export const projectsData = [
         code: ""
     },
     {
-        id: 6,
+        id: 7,
         name: 'Tortilla Arabia',
         description: "Tortilla Arabia is an ecommerce platform, developed for customers. It includes multiple features of ecommerce such as handling products, deals, discounts, coupons, customers, reporting, marketing, loyalty and many other features. It contains a website and crm for customers and admin pannel for internal use. It also handles integration with 3rd Party System called GrubTech , which syncs products and orders with our system.",
         tools: ['React JS', 'Redux', 'Nest JS', "MySQL", "TypeORM"],
@@ -65,7 +75,7 @@ export const projectsData = [
         code: ""
     },
     {
-        id: 7,
+        id: 8,
         name: 'OPTP',
         description: "OPTP is an ecommerce platform, developed for customers. It includes multiple features of ecommerce such as handling products, deals, discounts, coupons, customers, reporting, marketing, and many other features. It contains a website and CRM for customers and admin panel for internal use.",
         tools: ['React JS', 'Redux', 'Nest JS', "MySQL", "TypeORM"],
