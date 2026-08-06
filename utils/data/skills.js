@@ -1,4 +1,10 @@
 export const skillsData = [
+  'RAG',
+  'LLM Orchestration',
+  'Langchain',
+  'Ai Agents',
+  'Vector Embeddings',
+  'LLM Tool Calling',
   'HTML',
   'CSS',
   'Javascript',

@@ -80,10 +80,33 @@ import redis from '/public/svg/skills/redis.png';
 import sequelizeorm from '/public/svg/skills/sequelizeorm.png';
 import typeorm from '/public/svg/skills/typeorm.png';
 import websockets from '/public/svg/skills/websockets.webp';
+import rag from '/public/image/RAG-IMAGE.png';
+import llm from '/public/image/AI-IMAGE.jpeg';
+import lllmorchestration from '/public/image/lllm-orchestration.jpeg'
+import agent from '/public/image/agent.jpeg'
+import embeddings from '/public/image/embeddings.png'
 
 export const skillsImage = (skill) => {
   const skillID = skill.toLowerCase();
+  console.log("skillID",skillID)
   switch (skillID) {
+    case 'rag':
+      return rag;
+
+    case 'llm orchestration':
+      return lllmorchestration;
+
+    case 'langchain':
+      return llm;
+
+    case 'ai agents':
+      return agent;
+
+    case 'vector embeddings':
+      return embeddings;
+
+    case 'llm tool calling':
+      return llm;
     case 'gcp':
       return gcp;
     case 'html':

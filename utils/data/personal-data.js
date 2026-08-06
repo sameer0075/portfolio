@@ -8,5 +8,5 @@ export const personalData = {
   address: 'StateLife Phase 1 Lahore, Pakistan',
   linkedIn: 'https://www.linkedin.com/in/sameer-butt-2691031b9/',
   devUsername: "sameer0075",
-  resume: "https://drive.google.com/file/d/1f1N3SQKCq5CsJjkhLyDe28sniVpiIbID/view?usp=sharing"
+  resume: "https://drive.google.com/file/d/1h4M6zgQ693nnh7cKm4pklscIb99yfOb5/view?usp=sharing"
 }

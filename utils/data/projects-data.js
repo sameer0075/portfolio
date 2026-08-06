@@ -46,6 +46,25 @@ export const projectsData = [
     },
     {
         id: 5,
+        name: 'Personal Assistant',
+        tools: [
+            "Node.js",
+            "Express.js",
+            "React",
+            "Next.js",
+            "LangChain",
+            "OpenAI",
+            "MCP Servers",
+            "PostgreSQL",
+            "Redis"
+        ],
+        description: 'Developed an AI-powered personal assistant capable of understanding natural language and executing real-world tasks through MCP servers. Integrated Gmail, Google Calendar, LinkedIn, web search, and other external services to automate emailing, scheduling meetings, posting on LinkedIn, and retrieving information. Built a responsive chat interface with streaming responses, markdown rendering, tool invocation, and conversation history while designing scalable backend APIs and AI workflows using LangChain.',
+        image: realEstate,
+        demo: "https://www.loom.com/share/32eef748c839472f8bc863f7f8f520a9",
+        code: ""
+    },
+    {
+        id: 6,
         name: 'Rotobot',
         description: 'Rotobot revolutionizes fantasy football with cutting-edge AI technology, delivering personalized trends, in-depth player insights, and real-time updates. I built chatbot screens and ensured responsiveness across all devices. Additionally, I implemented smooth animations throughout the app to enhance user interaction and overall experience.',
         tools: ['NextJS', 'Material UI'],
@@ -55,7 +74,7 @@ export const projectsData = [
         code: ""
     },
     {
-        id: 6,
+        id: 7,
         name: 'Cluey',
         description: "Cluey targets an audience that selects brands based on their values and standards. Cluey keeps details about each brand, including what the brand is, how much and in what manner it participates in political campaigns, what impact it has on the public, and which alternative brands are available. I design and implement the client and server side logic using React and Node to support a platform catering to an audience driven by brand values. I oversee the storage and retrieval of detailed brand information, including political campaign involvement, societal impact, and alternatives. I was involved in crafting robust APIs, data flow, and optimizing performance. I contribute to maintain data integrity and uphold privacy standards. My responsibilities span frontend architecture to database management, and API development.",
         tools: ['NextJS', 'Material UI', 'Redux', 'Nest JS', "MySQL"],
@@ -65,7 +84,7 @@ export const projectsData = [
         code: ""
     },
     {
-        id: 7,
+        id: 8,
         name: 'Tortilla Arabia',
         description: "Tortilla Arabia is an ecommerce platform, developed for customers. It includes multiple features of ecommerce such as handling products, deals, discounts, coupons, customers, reporting, marketing, loyalty and many other features. It contains a website and crm for customers and admin pannel for internal use. It also handles integration with 3rd Party System called GrubTech , which syncs products and orders with our system.",
         tools: ['React JS', 'Redux', 'Nest JS', "MySQL", "TypeORM"],
@@ -75,7 +94,7 @@ export const projectsData = [
         code: ""
     },
     {
-        id: 8,
+        id: 9,
         name: 'OPTP',
         description: "OPTP is an ecommerce platform, developed for customers. It includes multiple features of ecommerce such as handling products, deals, discounts, coupons, customers, reporting, marketing, and many other features. It contains a website and CRM for customers and admin panel for internal use.",
         tools: ['React JS', 'Redux', 'Nest JS', "MySQL", "TypeORM"],
